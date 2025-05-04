@@ -45,16 +45,6 @@ var formatsave = {
 }
 
 
-//function updateTitle() {
-  //if(gcs('S',21)) document.title = `音乐游戏树`
-  //if(gcs('S',22)) document.title = `音乐游戏树 - ${format(player.points)} Notes`
-  //if(gcs('S',23)) document.title = `音乐游戏树 - ${format(player.a.ptt)} PTT`
-  //if(gcs('S',24)) document.title = `音乐游戏树 - ${format(player.p.rks)} RKS`
-  //if(gcs('S',25)) document.title = `音乐游戏树 - ${format(player.c.power)} Cytus力量`
-  //if(gcs('S',26)) document.title = `音乐游戏树 - ${format(player.ch.enp)} 课题力量`
-  //if(gcs('S',27)) document.title = `音乐游戏树 - ${format(player.r.notes)} 填充Notes`
-  //requestAnimationFrame(updateTitle)
-//}
 // ************ Save stuff ************
 function save(force) {
 	NaNcheck(player)
